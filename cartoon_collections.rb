@@ -1,6 +1,7 @@
 def roll_call_dwarves(array)
   array.each_with_index do |dwarf, i|
-    puts (i + 1).String + '#{dwarf}'
+    roll_call_number = (i + 1)
+   return roll_call_number + '#{dwarf}' 
   end 
 end
 

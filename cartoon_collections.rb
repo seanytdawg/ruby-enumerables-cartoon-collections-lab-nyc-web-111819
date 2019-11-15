@@ -8,7 +8,7 @@ def summon_captain_planet(array)
   array.map do |ele|
     ele[0].upcase
     ele + "!"
-end.join(" ")
+end
 end 
 
 def long_planeteer_calls(array)

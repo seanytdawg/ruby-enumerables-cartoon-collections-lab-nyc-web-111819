@@ -29,4 +29,3 @@ def find_the_cheese(array)
  end 
  return cheese_array[0]
 end
-end 

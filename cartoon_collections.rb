@@ -6,7 +6,8 @@ end
 
 def summon_captain_planet(array)
   array.map do |ele|
-    ele.upcase + "!"
+    ele[0].upcase
+    ele + "!"
 end.join(" ")
 end 
 

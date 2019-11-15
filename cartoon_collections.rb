@@ -1,10 +1,8 @@
 def roll_call_dwarves(array)
-  new_array = []
   array.each_with_index do |dwarf, i|
     roll_call_number = (i + 1)
-   new_array << "#{roll_call_number}"  "." + " #{dwarf}"
-  end 
-  return new_array.join(" ")
+   return "#{roll_call_number}"  "." + " #{dwarf}"
+end   
 end
 
 def summon_captain_planet(array)
